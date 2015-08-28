@@ -9,7 +9,7 @@ The following needs to be prepared
 * A `println!` statement
 
 ## Script
-We used a variable to reuse value multiple times.
+We used a variable to reuse a value multiple times.
 
 ```rust
 let subject = "world";
@@ -52,7 +52,7 @@ When we define a variable in [Rust][rust-lang] the default is to make the variab
 
 It could seems strange to make variable immutable by default, but it is a blessing in disguise. Immutability makes it easier to reason about programs.
 
-If we really want to change a variable binding, [Rust][rust-lang] allows us if we tell if we declare our intent before hand. 
+If we really want to change a variable binding, [Rust][rust-lang] allows us if we tell when we declare our variable. 
 
 ```rust
 let mut subject = "world";
